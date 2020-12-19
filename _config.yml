@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
+paginate: 5
 exclude:
   - README.md
