@@ -1,4 +1,5 @@
 theme: jekyll-theme-cayman
 paginate: 5
+permalink: /:year/:month/:day/:title/
 exclude:
   - README.md
