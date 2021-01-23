@@ -10,5 +10,6 @@ defaults:
       layout: post
       permalink: /posts/:title/
 strict_front_matter: true
+baseurl: https://yuseisui.github.io/test/
 permalink: /test/:year/:month/:day/:title/
 paginate: 5
