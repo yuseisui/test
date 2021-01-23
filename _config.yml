@@ -1,6 +1,14 @@
 exclude:
   - README.md
 timezone: Asia/Tokyo
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: /posts/:title/
 strict_front_matter: true
 permalink: /test/:year/:month/:day/:title/
 paginate: 5
