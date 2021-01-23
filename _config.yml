@@ -1,7 +1,6 @@
-paginate: 5
-timezone: Asia/Tokyo
-url: https://yuseisui.github.io/test/
-baseurl: https://yuseisui.github.io/test/
-permalink: /:year/:month/:day/:title/
 exclude:
   - README.md
+timezone: Asia/Tokyo
+strict_front_matter: true
+permalink: /:year/:month/:day/:title/
+paginate: 5
