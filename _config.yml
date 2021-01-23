@@ -2,6 +2,6 @@ exclude:
   - README.md
 timezone: Asia/Tokyo
 strict_front_matter: true
-baseurl: /
+baseurl: ""
 permalink: /:year/:month/:day/:title/
 paginate: 5
