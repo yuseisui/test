@@ -3,6 +3,6 @@ exclude:
 timezone: Asia/Tokyo
 strict_front_matter: true
 url: https://yuseisui.github.io/
-baseurl: /test
+baseurl: ""
 permalink: /:year/:month/:day/:title/
 paginate: 5
