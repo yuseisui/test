@@ -1,14 +1,6 @@
 exclude:
   - README.md
 timezone: Asia/Tokyo
-defaults:
-  -
-    scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-      permalink: /posts/:title/
 strict_front_matter: true
 baseurl: https://yuseisui.github.io/test/
 permalink: /test/:year/:month/:day/:title/
