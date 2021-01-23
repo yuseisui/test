@@ -1,4 +1,5 @@
 paginate: 5
+url: https://yuseisui.github.io/test/
 permalink: /:year/:month/:day/:title/
 exclude:
   - README.md
