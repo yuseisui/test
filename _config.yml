@@ -2,5 +2,4 @@ exclude:
   - README.md
 timezone: Asia/Tokyo
 strict_front_matter: true
-permalink: /:year/:month/:day/:title/
 paginate: 5
