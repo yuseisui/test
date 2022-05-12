@@ -33,7 +33,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          sudo apt-get install -q -y mecab
+          sudo apt-get install mecab
           which mecab
           mecab --version
           echo すもももももももものうち | mecab
