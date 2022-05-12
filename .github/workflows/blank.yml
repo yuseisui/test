@@ -33,7 +33,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          sudo apt-get update
+          sudo apt-get update -q
           sudo apt-get install mecab
           which mecab
           mecab --version
