@@ -21,3 +21,13 @@ jobs:
 
       - name: Update `target`
         run: sed -i "/\"target\":/s/\(es\)[0-9]\{4,\}/\1$(date -d '2 years ago' +%Y)/i" tsconfig.json
+      
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4.0.3
+        with:
+          add-paths: |
+            /tsconfig.json
+          commit-message: "build: update `target`"
+          delete-branch: true
+          title: "build: update `target`"
+
