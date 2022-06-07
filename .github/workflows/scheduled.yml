@@ -5,7 +5,7 @@ name: Scheduled
 # Controls when the workflow will run
 on:
   schedule:
-    - cron: '*/3 * * * *'
+    - cron: '* * * * *'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -26,9 +26,9 @@ jobs:
         uses: peter-evans/create-pull-request@v4
         with:
           add-paths: tsconfig.json
-          commit-message: "build: update `target`"
+          commit-message: "feat: update `target`"
           author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
           branch: update-target
           delete-branch: true
-          title: "build: update `target`"
-
+          title: "feat: update `target`"
+          body: It is available to use newer ECMAScript features.
